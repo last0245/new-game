@@ -9,7 +9,8 @@ class Display:
     x = 0
     y = 0
 
-    font = pygame.font.Font(None, 20)
+    # todo リアルタイムな座標を描画したい
+    # font = pygame.font.Font(None, 20)
 
     @classmethod
     def set_back_ground(cls, source, x, y):
@@ -32,4 +33,4 @@ class Display:
 
         cls.reserve_blit = []
         pygame.display.update()
-        print(cls.x, cls.y)
+        # print(cls.x, cls.y)

@@ -35,6 +35,7 @@ def main():
 if __name__ == "__main__":
     main()
 
+    # exampleゲーム、上のmain()をコメントアウトすること
     # import pygame.examples.aliens
     # pygame.examples.aliens.main()
 
